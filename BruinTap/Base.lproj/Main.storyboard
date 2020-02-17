@@ -23,7 +23,8 @@
                                 </constraints>
                                 <state key="normal" backgroundImage="ButtonBG"/>
                                 <connections>
-                                    <action selector="tappedTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="el3-D1-PN6"/>
+                                    <action selector="tappedStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ORe-Um-fSY"/>
+                                    <action selector="tappedTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qRp-a6-fyr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCD-m9-Kjf">
@@ -39,7 +40,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixf-ut-7ex">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixf-ut-7ex" userLabel="Time Label">
                                 <rect key="frame" x="186" y="598" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -69,10 +70,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="scoreLabel" destination="FIG-aN-Tl3" id="SZS-d6-b3Z"/>
-                        <outlet property="startButton" destination="FCD-m9-Kjf" id="tJx-kw-aBt"/>
-                        <outlet property="tapButton" destination="8cj-vO-sSM" id="uVO-iI-8zH"/>
-                        <outlet property="timeLabel" destination="ixf-ut-7ex" id="l12-iq-Ekx"/>
+                        <outlet property="scoreLabel" destination="FIG-aN-Tl3" id="Ee3-cD-n1V"/>
+                        <outlet property="startButton" destination="FCD-m9-Kjf" id="FMT-co-8JT"/>
+                        <outlet property="tapButton" destination="8cj-vO-sSM" id="YMw-Mm-UIR"/>
+                        <outlet property="timeLabel" destination="ixf-ut-7ex" id="Kmo-CM-zqU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

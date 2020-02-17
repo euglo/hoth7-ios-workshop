@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         tapButton.isEnabled = false
     }
 
-    @IBAction func tappedStartButton(_ sender: Any) {
+    @IBAction func tappedStartButton(_ sender: UIButton) {
         score = 0
         time = 10
         
@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         
         startButton.isEnabled = false
         tapButton.isEnabled = true
+    }
+    
+    @IBAction func tappedTapButton(_ sender: UIButton) {
+        
     }
     
     @IBAction func tappedTapButton(_ sender: Any) {
@@ -62,4 +66,3 @@ class ViewController: UIViewController {
     
     @IBAction func unwind(segue: UIStoryboardSegue) { }
 }
-
