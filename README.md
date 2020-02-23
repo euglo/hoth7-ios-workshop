@@ -1,6 +1,6 @@
 # Intro to IOS - HOTH 7 Workshop README
 
-**Slides**: https://docs.google.com/presentation/d/164uAyaVHKk5sloJJ6ssc2ct6CF3GktuiF--tsUnYvxU/edit#slide=id.g2a934576d8_0_0
+**Slides**: https://tinyurl.com/hoth7iosworkshop
 
 **Image**: https://imgur.com/a/u1fm6
 
